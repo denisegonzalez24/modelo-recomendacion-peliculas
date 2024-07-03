@@ -32,7 +32,7 @@ dias_espanol = {
 @app.get("/score_titulo")
 def score_titulo(titulo: str):
     #dataframe 
-    data=pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data=pd.read_csv("datos/movies_data.csv")
     movie = data[data['title'].str.lower() == titulo.lower()]
     # Obtener los detalles de la película
     anio_estreno = movie.iloc[0]['release_year']
@@ -45,7 +45,7 @@ def score_titulo(titulo: str):
 @app.get("/filmaciones_mes")
 def cantidad_filmaciones_mes( mes ):
     mes = mes.lower()
-    data=pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data=pd.read_csv("datos/movies_data.csv")
     #paso a datatime
     data['release_date'] = pd.to_datetime(data['release_date'], errors='coerce')
     #encontrar nro de mes
@@ -61,7 +61,7 @@ def cantidad_filmaciones_mes( mes ):
 @app.get("/filmaciones_dia")
 def cantidad_filmaciones_dia( dia ):
     dia=dia.lower()
-    data= pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data= pd.read_csv("datos/movies_data.csv")
     #paso a datatime
     data['release_date'] = pd.to_datetime(data['release_date'], errors='coerce')
     nro_dia = dias_espanol[dia]
@@ -79,7 +79,7 @@ print(cantidad_filmaciones_dia("lunes"))
 @app.get("/votos_titulo")
 def votos_titulo( titulo):
     titulo = titulo.lower()
-    data=pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data=pd.read_csv("datos/movies_data.csv")
     #voy a la fila
     movie = data[data['title'].str.lower() == titulo]
     #tomo cantidad de votos y verifico que sea mayor a 2000  'vote_count'
@@ -108,7 +108,7 @@ def get_actor(nombre_actor: str):
     nombre_actor = nombre_actor.lower()
 
     # Leer el dataset
-    data = pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data = pd.read_csv("datos/movies_data.csv")
 
     # Convertir la columna 'cast' a lista de nombres limpiados
     if 'cast_clean' in data.columns:
@@ -147,7 +147,7 @@ def get_director(nombre_director):
     nombre_director = nombre_director.lower()
 
     # Leer el dataset
-    data = pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+    data = pd.read_csv("datos/movies_data.csv")
 
     # Filtrar las películas del director específico
     peliculas_director = data[data['director'].str.lower() == nombre_director]

@@ -130,12 +130,8 @@ def get_actor(nombre_actor: str):
     retorno_total = float(retorno_total)
     promedio_retorno = float(promedio_retorno)
 
-    return {
-        "actor": nombre_actor,
-        "cantidad_peliculas": cantidad_peliculas,
-        "retorno_total": retorno_total,
-        "promedio_retorno": promedio_retorno
-    }
+    return f"el actor {nombre_actor} ha participado de {cantidad_peliculas} cantidad de filmaciones, el mismo ha conseguido un 
+    retorno de {retorno_total} con un promedio de {promedio_retorno} por filmación "
 
 # Función para calcular el retorno (ganancia / costo)
 #def calcular_retorno(row):
@@ -173,8 +169,11 @@ def get_director(nombre_director):
     # Convertir a tipos de datos nativos de Python
     retorno_total = float(retorno_total)
 
-    return f"El actor {nombre_actor} ha participado de {cantidad_peliculas} cantidad de filmaciones, el mismo ha conseguido un 
-    retorno de {retorno_total} con un promedio de {promedio_retorno} por filmación"
+    return {
+        "director": nombre_director,
+        "detalles_peliculas": detalles_peliculas,
+        "retorno_total": retorno_total
+    }
 
 #print(get_actor("Tom Hanks"))
 

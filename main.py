@@ -173,11 +173,8 @@ def get_director(nombre_director):
     # Convertir a tipos de datos nativos de Python
     retorno_total = float(retorno_total)
 
-    return {
-        "director": nombre_director,
-        "detalles_peliculas": detalles_peliculas,
-        "retorno_total": retorno_total
-    }
+    return f"El actor {nombre_actor} ha participado de {cantidad_peliculas} cantidad de filmaciones, el mismo ha conseguido un 
+    retorno de {retorno_total} con un promedio de {promedio_retorno} por filmación"
 
 #print(get_actor("Tom Hanks"))
 

@@ -185,5 +185,6 @@ def get_director(nombre_director):
 #testing
 #print(score_titulo("toy story"))
 #print(cantidad_filmaciones_mes("enero"))
-print(cantidad_filmaciones_dia("lunes"))
+#print(cantidad_filmaciones_dia("lunes"))
 #print(votos_titulo("toy story"))
+#print(get_actor("tom hanks"))

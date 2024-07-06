@@ -24,9 +24,6 @@ dias_espanol = {
 }
 
 
-
-
-
 #consultas
 
 @app.get("/score_titulo")
@@ -69,7 +66,7 @@ def cantidad_filmaciones_dia( dia ):
     cantidad = data[data['release_date'].dt.day_of_week == nro_dia].shape[0]
     return f"{cantidad} cantidad de películas fueron estrenadas en los días {dia}"
 
-print(cantidad_filmaciones_dia("lunes"))
+
 
 '''def votos_titulo( titulo_de_la_filmación ): Se ingresa el título de una filmación esperando como respuesta el título,
  la cantidad de votos y el valor promedio de las votaciones. La misma variable deberá de contar con al menos 2000 
@@ -110,37 +107,41 @@ def get_actor(nombre_actor: str):
     # Leer el dataset
     data = pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
 
-    # Convertir la columna 'cast' a lista de nombres limpiados
+    # Convertir la columna 'cast_clean' a lista de nombres limpiados
     if 'cast_clean' in data.columns:
         data['cast_clean'] = data['cast_clean'].apply(convertir_a_lista)
 
     # Filtrar las películas en las que ha participado el actor
     peliculas_actor = data[data['cast_clean'].apply(lambda cast: nombre_actor in cast)]
 
-    # Calcular el retorno total
-    retorno_total = peliculas_actor['return'].sum()
+     # Eliminar las películas donde el actor también es director
+    peliculas_actor = peliculas_actor[~peliculas_actor['director'].apply(lambda director: nombre_actor in director)]
 
-    # Cantidad de películas
-    cantidad_peliculas = peliculas_actor.shape[0]
+     # Calcular el retorno total y otras métricas solo si hay películas encontradas
+    if not peliculas_actor.empty:
+        # Filtrar las columnas necesarias y calcular el retorno total
+        peliculas_actor = peliculas_actor[['return']].dropna()
+        retorno_total = peliculas_actor['return'].sum()
 
-    # Promedio de retorno
-    promedio_retorno = retorno_total / cantidad_peliculas if cantidad_peliculas > 0 else 0
+        # Cantidad de películas
+        cantidad_peliculas = peliculas_actor.shape[0]
 
-    # Convertir a tipos de datos nativos de Python
-    retorno_total = float(retorno_total)
-    promedio_retorno = float(promedio_retorno)
+        # Promedio de retorno
+        promedio_retorno = retorno_total / cantidad_peliculas if cantidad_peliculas > 0 else 0
 
-    return {
-        "actor": nombre_actor,
-        "cantidad_peliculas": cantidad_peliculas,
-        "retorno_total": retorno_total,
-        "promedio_retorno": promedio_retorno
-    }
+        # Convertir a tipos de datos nativos de Python
+        retorno_total = float(retorno_total)
+        promedio_retorno = float(promedio_retorno)
 
-# Función para calcular el retorno (ganancia / costo)
-#def calcular_retorno(row):
-#    return row['return'] / row['budget'] if row['budget'] != 0 else 0
+        # Devolver el resultado en un diccionario
+        return f"El actor {nombre_actor} ha participado en {cantidad_peliculas} películas, con un retorno total de {retorno_total} y un promedio de retorno de {promedio_retorno} por película."
+        
+    else:
+        # Devolver un mensaje si no se encontraron películas
+        return  f"No se encontraron películas donde el actor {nombre_actor} participara como actor y no fuera director."
+        
 
+    
 # Función para obtener detalles de las películas de un director
 @app.get("/director")
 def get_director(nombre_director):
@@ -184,5 +185,6 @@ def get_director(nombre_director):
 #testing
 #print(score_titulo("toy story"))
 #print(cantidad_filmaciones_mes("enero"))
+print(cantidad_filmaciones_dia("lunes"))
 #print(votos_titulo("toy story"))
-#print(get_actor("Tom Hanks"))
+print(get_actor("tom hanks"))

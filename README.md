@@ -1,7 +1,8 @@
-Proyecto de Recomendación de Películas
+## Proyecto de Recomendación de Películas
+
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
-Descripción del problema
+# Descripción del problema
 Contexto
 Tengo un modelo de recomendación con buenas métricas 😏, y ahora, ¿cómo lo llevo al mundo real? 👀
 

@@ -79,4 +79,3 @@ def recomendacion_movie(title: str):
     sim_movies = muestra['title'].iloc[sim_ind].values.tolist()
     return {f'peliculas recomendados para {title}': list(sim_movies)}
 
-print(recomendacion_movie('toy story'))

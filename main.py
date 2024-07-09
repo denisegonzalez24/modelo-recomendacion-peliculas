@@ -16,7 +16,7 @@ def index():
     return {"messsage" : "hola, este es mi proyecto"}
 
 #defino mi dataframe
-df =pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\movies_data.csv')
+df =pd.read_csv("datos/movies_data.csv")
 
 #consultas
 
@@ -55,7 +55,7 @@ def get_get_director(nombre_director):
 
 
 #funcion para recomendar peliculas ingresando el nombre (detallado en el archivo 'modelo_machine_learning.ipynb')
-muestra = pd.read_csv(r'D:\Denise_Estudio\henry\PI\datos\muestra.csv')
+muestra = pd.read_csv("datos/muestra.csv")
 
 valid_columns = ['title', 'genres_clean', 'companies_names', 'director', 'overview']
 muestra = muestra.fillna("")

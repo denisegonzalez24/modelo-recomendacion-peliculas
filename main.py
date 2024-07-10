@@ -67,6 +67,7 @@ tfidf_matrix = tfidf.fit_transform(muestra['combined'])
 
 cosine_similarity = linear_kernel(tfidf_matrix, tfidf_matrix)
 
+@app.get("/recomendacion")
 def recomendacion_movie(title: str):
     title = title.lower()
     if title not in muestra['title'].values:

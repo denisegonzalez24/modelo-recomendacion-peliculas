@@ -1,4 +1,4 @@
-import fastapi
+from fastapi import FastAPI
 from pydantic import basemodel
 import pandas as pd
 import ast

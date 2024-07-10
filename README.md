@@ -14,14 +14,7 @@
 ## Índice
 
 - [Descripción del problema](#descripción-del-problema)
-  - [Contexto](#contexto)
-  - [Rol a desarrollar](#rol-a-desarrollar)
 - [Propuesta de trabajo](#propuesta-de-trabajo)
-  - [Transformaciones](#transformaciones)
-  - [Desarrollo API](#desarrollo-api)
-  - [Deployment](#deployment)
-  - [Análisis exploratorio de los datos (EDA)](#análisis-exploratorio-de-los-datos-eda)
-  - [Sistema de recomendación](#sistema-de-recomendación)
 - [Cómo ejecutar el proyecto](#cómo-ejecutar-el-proyecto)
 - [Contribuciones](#contribuciones)
 

@@ -1,3 +1,5 @@
+# Read Me
+
 ## <h1 align=center> PRIMER PROYECTO INDIVIDUAL </h1>
 
 <p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
@@ -5,8 +7,7 @@
 
 # <h1 align=center> Proyecto de Recomendación de Películas </h1>
 
-![8b5168873a2cddcdee83c662ea0ed261](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/d85aef88-bc70-47b0-936f-9e511664555c)
-
+<p align=center><img src=https://img.freepik.com/premium-vector/video-camera-icon-comic-style-movie-play-vector-cartoon-illustration-pictogram-video-streaming-business-concept-splash-effect_157943-5803.jpg?w=740><p>
   
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 

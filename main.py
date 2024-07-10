@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import linear_kernel
 
 
 #creo la app fastapi
-app = fastapi(title="consultas peliculas")
+app = FastAPI(title="consultas peliculas")
 
 #defino las rutas de los archivos
 movies_data_path = "datos/movies_data.csv"
@@ -28,7 +28,7 @@ def load_muestra_data():
 
 #inicialización del tf-idf y matriz de similitud coseno
 muestra = load_muestra_data()
-tfidf = tfidfvectorizer(stop_words='english')
+tfidf = TfidfVectorizer(stop_words='english')
 tfidf_matrix = tfidf.fit_transform(muestra['combined'])
 cosine_similarity = linear_kernel(tfidf_matrix, tfidf_matrix)
 

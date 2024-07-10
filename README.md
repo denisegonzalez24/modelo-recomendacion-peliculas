@@ -1,9 +1,9 @@
-# <h1align=center> PRIMER PROYECTO INDIVIDUAL </h1>
+## <h1 align=center> PRIMER PROYECTO INDIVIDUAL </h1>
 
 <p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
 
 
-# Proyecto de Recomendación de Películas
+# <h1 align=center> Proyecto de Recomendación de Películas </h1>
 <p align=center>
 ![8b5168873a2cddcdee83c662ea0ed261](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/d85aef88-bc70-47b0-936f-9e511664555c)
 <p>

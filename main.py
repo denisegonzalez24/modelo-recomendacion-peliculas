@@ -3,8 +3,9 @@ import pandas as pd
 import ast
 import gc
 from funciones_main import score_titulo, cantidad_filmaciones_mes, cantidad_filmaciones_dia, votos_titulo, get_actor, get_director
-from sklearn.feature_extraction.text import tfidfvectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+
 
 #creo la app fastapi
 app = fastapi(title="consultas peliculas")

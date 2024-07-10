@@ -1,4 +1,4 @@
-# Read Me
+# <h1 align=center> Read Me </h1>
 
 ## <h1 align=center> PRIMER PROYECTO INDIVIDUAL </h1>
 

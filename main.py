@@ -18,11 +18,11 @@ def index():
 
 #función para cargar el dataframe de películas
 def load_movies_data():
-    return pd.read_csv(r"D:\Denise_Estudio\henry\PI\datos\movies_data.csv")
+    return pd.read_csv("datos/movies_data.csv##)
 
 #función para cargar el dataframe de muestra
 def load_muestra_data():
-    muestra = pd.read_csv(r"D:\Denise_Estudio\henry\PI\datos\muestra.csv")
+    muestra = pd.read_csv("datos/muestra.csv")
     valid_columns = ['title', 'genres_clean', 'companies_names', 'director']
     muestra = muestra[valid_columns].fillna("")
     muestra['combined'] = muestra['genres_clean'] + ' ' + muestra['companies_names'] + ' ' + muestra['director']

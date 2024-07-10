@@ -1,5 +1,9 @@
-# Proyecto de Recomendación de Películas
+#  PRIMER PROYECTO INDIVIDUAL
 
+https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/fa1110f9-a768-4560-bc8b-219cfe1e769d
+
+# Proyecto de Recomendación de Películas
+![8b5168873a2cddcdee83c662ea0ed261](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/d85aef88-bc70-47b0-936f-9e511664555c)
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
 ## Índice

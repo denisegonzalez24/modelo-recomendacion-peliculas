@@ -1,12 +1,13 @@
-#  PRIMER PROYECTO INDIVIDUAL
+# # <h1align=center> PRIMER PROYECTO INDIVIDUAL </h1>
 
-
-![68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/11b7e3f7-4976-4586-ab7b-4adf426013b2)
+<p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
 
 
 # Proyecto de Recomendación de Películas
+<p align=center>
 ![8b5168873a2cddcdee83c662ea0ed261](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/d85aef88-bc70-47b0-936f-9e511664555c)
-
+<p>
+  
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
 ## Índice

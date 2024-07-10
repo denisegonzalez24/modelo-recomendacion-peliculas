@@ -1,9 +1,12 @@
 #  PRIMER PROYECTO INDIVIDUAL
 
-https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/fa1110f9-a768-4560-bc8b-219cfe1e769d
+
+![68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/11b7e3f7-4976-4586-ab7b-4adf426013b2)
+
 
 # Proyecto de Recomendación de Películas
 ![8b5168873a2cddcdee83c662ea0ed261](https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/d85aef88-bc70-47b0-936f-9e511664555c)
+
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
 ## Índice
@@ -44,7 +47,7 @@ https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/fa1110
   <summary>Transformaciones</summary>
   Para este MVP no necesito perfección, ¡necesito rapidez! ⏩ Realicé estas transformaciones a los datos:
 
-  - Desanidar campos como `belongs_to_collection`, `production_companies`, y otros (ver diccionario de datos).
+  - Desanidar campos como `belongs_to_collection`, `production_companies`.
   - Rellenar valores nulos en `revenue` y `budget` con 0.
   - Eliminar valores nulos en `release_date`.
   - Formatear fechas a `AAAA-mm-dd` y crear una columna `release_year` extrayendo el año de la fecha de estreno.
@@ -83,6 +86,15 @@ https://github.com/denisegonzalez24/proyecto_individual1/assets/174357349/fa1110
 </details>
 
 ## Cómo ejecutar el proyecto
+
+Desde la web
+
+Puedes hacer uso de la API a traves del siguiente link
+ ```sh
+https://api-proyecto-individual.onrender.com
+```
+
+De manera local
 
 1. Clona el repositorio:
    ```sh

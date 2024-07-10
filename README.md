@@ -7,7 +7,7 @@
 
 # <h1 align=center> Proyecto de Recomendación de Películas </h1>
 
-<p align=center><img src=https://img.freepik.com/premium-vector/video-camera-icon-comic-style-movie-play-vector-cartoon-illustration-pictogram-video-streaming-business-concept-splash-effect_157943-5803.jpg?w=300><p>
+<p align=center><img src=https://img.freepik.com/premium-vector/video-camera-icon-comic-style-movie-play-vector-cartoon-illustration-pictogram-video-streaming-business-concept-splash-effect_157943-5803.jpg?w=200><p>
   
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 

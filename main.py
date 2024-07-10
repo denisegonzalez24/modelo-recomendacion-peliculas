@@ -18,7 +18,7 @@ def index():
 
 #función para cargar el dataframe de películas
 def load_movies_data():
-    return pd.read_csv("datos/movies_data.csv##)
+    return pd.read_csv("datos/movies_data.csv")
 
 #función para cargar el dataframe de muestra
 def load_muestra_data():

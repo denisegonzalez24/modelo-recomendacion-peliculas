@@ -112,3 +112,7 @@ De manera local
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio importante.
+
+## Mis datos
+linkedin 
+www.linkedin.com/in/nissedgonzalezm

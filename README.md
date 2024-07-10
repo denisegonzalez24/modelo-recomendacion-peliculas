@@ -27,20 +27,20 @@
 
 <details>
   <summary>Rol a desarrollar</summary>
-  Empecé a trabajar como Data Scientist en una start-up que provee servicios de agregación de plataformas de streaming. El mundo es bello y voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha!
+  Empecé a trabajar como Data Scientist en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha.
 
-  Voy a los datos y me doy cuenta que la madurez de los mismos es poca (ok, es nula 😭): Datos anidados, sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas… haciendo mi trabajo imposible 😩.
+  La madurez de los datos es problematica, me encuentro con datos anidados, sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas.
 
-  Debo empezar desde cero, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para las próximas semanas! Mi cabeza va a explotar 🤯, pero al menos sé cuál es, conceptualmente, el camino que debo seguir ❗. Así que me espanto los miedos y me pongo manos a la obra 💪
+  Debo empezar desde cero, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para las próximas semanas! Así que me pongo manos a la obra 💪
 </details>
 
 ## Propuesta de trabajo
 
 <details>
   <summary>Transformaciones</summary>
-  Para este MVP no necesito perfección, ¡necesito rapidez! ⏩ Realicé estas transformaciones a los datos:
+ ⏩ Realicé estas transformaciones a los datos: (ETL)
 
-  - Desanidar campos como `belongs_to_collection`, `production_companies`.
+  - Desanidar campos como `belongs_to_collection`, `production_companies`,`genres`,`movies_companys`,`spoken_languages`.
   - Rellenar valores nulos en `revenue` y `budget` con 0.
   - Eliminar valores nulos en `release_date`.
   - Formatear fechas a `AAAA-mm-dd` y crear una columna `release_year` extrayendo el año de la fecha de estreno.
@@ -116,3 +116,5 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request p
 ## Mis datos
 linkedin 
 www.linkedin.com/in/nissedgonzalezm
+
+## Gracias por llegar hasta aquí

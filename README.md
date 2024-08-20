@@ -80,15 +80,7 @@ Puedes hacer uso de la API a traves del siguiente link
  ```sh
 https://api-proyecto-individual.onrender.com
 ```
-## Stack Tecnológico
 
-- python
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- Render
-- FastApi
 De manera local
 
 1. Clona el repositorio:
@@ -111,7 +103,15 @@ De manera local
    ```
    http://127.0.0.1:8000/docs
    ```
+## Stack Tecnológico
 
+- python
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- Render
+- FastApi
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio importante.
 

@@ -9,12 +9,12 @@
   
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
-## Índice
+## Herramientas
 
-- [Descripción del problema](#descripción-del-problema)
-- [Propuesta de trabajo](#propuesta-de-trabajo)
-- [Cómo ejecutar el proyecto](#cómo-ejecutar-el-proyecto)
-- [Contribuciones](#contribuciones)
+- Python
+- Pandas
+- Render
+- FastApi
 
 ## Descripción del problema
 

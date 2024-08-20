@@ -9,13 +9,7 @@
   
 ¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
-## Herramientas
-
-- Python
-- Pandas
-- Render
-- FastApi
-
+  
 ## Descripción del problema
 
 <details>
@@ -86,7 +80,15 @@ Puedes hacer uso de la API a traves del siguiente link
  ```sh
 https://api-proyecto-individual.onrender.com
 ```
+## Stack Tecnológico
 
+- python
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- Render
+- FastApi
 De manera local
 
 1. Clona el repositorio:

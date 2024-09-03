@@ -4,32 +4,29 @@
 
 <p align=center><img src=https://img.freepik.com/premium-vector/video-camera-icon-comic-style-movie-play-vector-cartoon-illustration-pictogram-video-streaming-business-concept-splash-effect_157943-5803.jpg?w=200><p>
   
-¡Bienvenido a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
+¡Bienvenidx a mi Proyecto de Recomendación de Películas! En esta ocasión, me he situado en el rol de un MLOps Engineer para desarrollar un sistema de recomendación de películas.
 
   
 ## Descripción del problema
 
 <details>
   <summary>Contexto</summary>
-  Tengo un modelo de recomendación con buenas métricas 😏, y ahora, ¿cómo lo llevo al mundo real? 👀
-
-  El ciclo de vida de un proyecto de Machine Learning debe incluir desde el tratamiento y recolección de los datos (Data Engineer stuff) hasta el entrenamiento y mantenimiento del modelo de ML según llegan nuevos datos.
+  El ciclo de vida de un proyecto de Machine Learning debe incluir desde el tratamiento y recolección de los datos hasta el entrenamiento y mantenimiento del modelo de ML según llegan nuevos datos.
 </details>
 
 <details>
   <summary>Rol a desarrollar</summary>
-  Empecé a trabajar como Data Scientist en una start-up que provee servicios de agregación de plataformas de streaming. Voy a crear mi primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha.
+Pensado para una plataforma de streaming. Se realizará un modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha.
 
-  La madurez de los datos es problematica, me encuentro con datos anidados, sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas.
-
-  Debo empezar desde cero, haciendo un trabajo rápido de Data Engineer y tener un MVP (Minimum Viable Product) para las próximas semanas! Así que me pongo manos a la obra 💪
+  Luego de la obtención, se observa que la madurez de los datos es problemática, se encuentran datos anidados, sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas.
+  Se comienza desde cero, realizando procesos como Data Engineer y tener un MVP (Minimum Viable Product)
 </details>
 
 ## Propuesta de trabajo
 
 <details>
   <summary>Transformaciones</summary>
- ⏩ Realicé estas transformaciones a los datos: (ETL)
+ ⏩ Realicé las siguientes transformaciones a los datos: (ETL)
 
   - Desanidar campos como `belongs_to_collection`, `production_companies`,`genres`,`movies_companys`,`spoken_languages`.
   - Rellenar valores nulos en `revenue` y `budget` con 0.

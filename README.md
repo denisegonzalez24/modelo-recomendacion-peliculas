@@ -14,13 +14,13 @@
   El ciclo de vida de un proyecto de Machine Learning debe incluir desde el tratamiento y recolección de los datos hasta el entrenamiento y mantenimiento del modelo de ML según llegan nuevos datos.
 </details>
 
-<details>
+
   <summary>Rol a desarrollar</summary>
 Pensado para una plataforma de streaming. Se realizará un modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha.
 
   Luego de la obtención, se observa que la madurez de los datos es problemática, se encuentran datos anidados, sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas.
   Se comienza desde cero, realizando procesos como Data Engineer y tener un MVP (Minimum Viable Product)
-</details>
+
 
 ## Propuesta de trabajo
 
@@ -100,6 +100,8 @@ De manera local
 ## Stack Tecnológico
 
 - python
+- sklearn
+- TfidfVectorizer
 - pandas
 - numpy
 - matplotlib
